@@ -1,12 +1,12 @@
 function moveBoy(e){
 
-    var boy = document.getElementById("boy");
-    var circle = document.getElementById("circle");
+    let boy = document.getElementById("boy");
+    let circle = document.getElementById("circle");
 
-    var cs = window.getComputedStyle(circle);
+    let cs = window.getComputedStyle(circle);
 
-    var left = parseInt(cs.marginLeft);
-    var top = parseInt(cs.marginTop);
+    let left = parseInt(cs.marginLeft);
+    let top = parseInt(cs.marginTop);
 
     switch(e.keyCode){
 
