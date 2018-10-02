@@ -1,4 +1,4 @@
-function moveRect(e){
+function moveBoy(e){
 
     var boy = document.getElementById("boy");
     var circle = document.getElementById("circle");
@@ -37,4 +37,4 @@ function moveRect(e){
     }
 }
 
-addEventListener("keydown", moveRect);
+addEventListener("keydown", moveBoy);
